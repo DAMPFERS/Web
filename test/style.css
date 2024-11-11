@@ -1,0 +1,103 @@
+a {
+    color:brown;
+    font-size: 10px;
+}
+
+div{
+    color: #19FBFF;
+    color: rgba(255, 100, 10, 0.5);
+}
+
+#moy{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#test_ssilka{
+    font-size: 25px;
+    color: purple;
+}
+
+
+
+.message{
+    color: #747474;
+    background-color: #e4e4e4;
+    border: 1px solid #323232;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 1px;
+    margin-right: 50px;
+    padding: 15px;
+}
+.succes{
+    background-color: green;
+    color: white;
+}
+.faile{
+    background-color: #d65144;
+    color: white;
+}
+
+
+.message:hover{
+    border: 10px solid #323232;
+}
+
+
+
+
+
+.human{
+    font-size: 16px;
+    color: chocolate;
+}
+
+.animal {
+    color: gold;
+}
+
+.lion{
+    color: #ffce45;
+}
+.monkey{
+    color: black;
+}
+.fish{
+    color: #73ecff;
+}
+
+
+
+
+
+body{
+    background-image: url(images.png);
+}
+
+#test{
+
+    transform: rotate(-45deg) scale(0.5);
+    transition: 5s all;
+
+    background-color: #4e8df5;
+    color: white;
+    padding: 35px;
+    margin: 15px;
+    border: 4px dashed #d85346;
+    border-radius: 30px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 7px black;
+    width: 90%;
+    height: 500px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#test:hover{
+    opacity: 1;
+    transform: rotate(360deg) scale(0.5);
+    background-color: rebeccapurple;
+}
